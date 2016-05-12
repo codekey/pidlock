@@ -9,7 +9,7 @@ import (
 func main() {
 	var pidfile string = "/tmp/pidlocktest.pid"
 
-	if pidlock.Verbose=true; pidlock.GetLock(pidfile){
+	if pidlock.GetLock(pidfile){
 		defer pidlock.ReleaseLock(pidfile)
 		fmt.Println("This is a Simple Test for Rajani's pidlock module")
 		fmt.Println("You see this message because I have obtained the lock!!")
