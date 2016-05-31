@@ -1,6 +1,5 @@
 package pidlock
 
-//package main
 
 import (
 	"fmt"
