@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"pidlock"
+	"github.com/rajni4go/GO/pidlock"
 	"time"
 )
 
