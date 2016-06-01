@@ -2,7 +2,7 @@ package pidlock_test
 
 import (
 	//"fmt"
-	"go.corp.yahoo.com/crajani/pidlock"
+	"github.com/rajni4go/GO/pidlock"
         "testing"
 )
 
